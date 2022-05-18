@@ -1,0 +1,114 @@
+.header {
+  background-color: #003580;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.headerContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
+}
+.headerContainer.listMode{
+  margin: 20px 0px 0px 0px;
+}
+.headerLists {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.headerListItem.active{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.headerDesc {
+  margin-bottom: 20px;
+}
+.headerButton {
+  background: #0071c2;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+}
+.headerSearch {
+  height: 30px;
+  background: white;
+  border: 3px solid #febb02;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+}
+.searchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.searchInput {
+  border: none;
+  outline: none;
+}
+.headerIcon {
+  color: lightgray;
+}
+.headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+}
+.dateComponent {
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+}
+.options {
+  position: absolute;
+  top: 50px;
+  color: gray;
+  background: white;
+  z-index: 10;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.45);
+  padding: 10px;
+}
+.optionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  margin: 10px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+.optionCounterButton{
+    color: #0071c2;
+    border: 1px solid #0071c2;
+    background: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.optionCounterButton:disabled{
+    cursor: not-allowed;
+}

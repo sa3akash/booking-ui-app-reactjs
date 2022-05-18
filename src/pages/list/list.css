@@ -1,0 +1,99 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+.listSearch{
+    flex: 1;
+    background: #FEBB02;
+    border-radius: 5px;
+    padding: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+.lsTitle{
+    font-size: 20px;
+    color: #555;
+}
+.lsItem{
+    margin-bottom: 10px;
+}
+.lsItem > label{
+    font-size: 12px;
+    font-weight: 200;
+}
+.inputBox{
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.inputBox > input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.inputBox > span{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+}
+.optionBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.optionItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.optionItem > input{
+    width: 50px;
+    outline: none;
+}
+.optionItem > span{
+   font-size: 12px;
+   font-weight: 500;
+   color: #555;
+}
+.searchBoxButton{
+    width: 100%;
+    color: white;
+    background: #0071C2;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.dateOpen{
+    position: relative;
+    cursor: pointer;
+}
+.dateComponent2{
+    position: absolute;
+    top: 35px;
+    left: -60px;
+}
+
+
+.listResult{
+    flex: 3;
+}
+
+
+
+
+
+
+

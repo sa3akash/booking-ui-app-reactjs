@@ -1,0 +1,44 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.fpItem{
+    flex: 1;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fpImage{
+    width: 100%;
+}
+.propertyName{
+    font-weight: bold;
+}
+.propertyCity{
+    font-weight: 300;
+}
+.propertyPrice{
+    font-weight: 500;
+}
+.rating > button{
+    background: #003580;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.rating > span{
+    font-weight: 300;
+    font-size: 12px;
+}
+.rating .ratingValue{
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+}
